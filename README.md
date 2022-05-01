@@ -25,27 +25,27 @@ Since this project was made in a gitlab from TU Delft, the repository with the e
 ## Explaintion of the code
 **pcl obstacle detector**
 Made by Sam Bekkers
-In ```pcl_obstacle_detector.h``` the class is made
-In ```pcl_obstacle_detector_node.cpp``` the node in initialized
-In ```pcl_obstacle_detector.cpp``` the functions are written
+- In ```pcl_obstacle_detector.h``` the class is made
+- In ```pcl_obstacle_detector_node.cpp``` the node in initialized
+- In ```pcl_obstacle_detector.cpp``` the functions are written
 
 First, a filtering object is made for the back ground. The points are then clusterd. the center of the custer is detement and the size using the max an min values. That information is put in a array and published
 
 **open CV person detector**
 Made by Job Mulder
 
-In ```opencv_person_detector.h``` the class is made
-In ```opencv_person_detector_node.cpp`` the node in initialized
-In ```opencv_person_detector.cpp``` the functions are written
+- In ```opencv_person_detector.h``` the class is made
+- In ```opencv_person_detector_node.cpp`` the node in initialized
+- In ```opencv_person_detector.cpp``` the functions are written
 
 First, the data from the camera is collected. If a person is recognized, a square is drawn around a person and this info is published to two topics. This will result in a green box being drawn around the persons in the simulator.
 
 **control barrel world**
 made by Job Mulder and Sam Bekkers
 
-In ```control_barrel_world.h``` the class is made
-In ```control_barrel_world_node.cpp``` the node in initilized
-In ```control_barrel_world.cpp``` the functions are written
+- In ```control_barrel_world.h``` the class is made
+- In ```control_barrel_world_node.cpp``` the node in initilized
+- In ```control_barrel_world.cpp``` the functions are written
 
 The detections are put in a for loop to find the closest obstacle. When that obstacle is further than 4 meters apart the vehicle starts driving. When the obstacle is within 4 meters distance the car wil steer to the right or the left depending on the y value.
 
