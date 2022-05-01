@@ -1,0 +1,20 @@
+<?xml version="1.0"?> <package>
+<name>opencv_person_detector </name>
+<version >0.0.1</version>
+<description>Robot Software Practicals Final Assignment </description>
+<maintainer email="f.c.k.krijgsman@student.tudelft.nl">
+Floris Krijgsman </maintainer>
+<license >TODO</license >
+ <buildtool_depend>catkin </buildtool_depend>
+ <build_depend>sensor_msgs</build_depend>
+ <run_depend>sensor_msgs</run_depend>
+ <build_depend>roscpp</build_depend>
+ <run_depend>roscpp</run_depend>
+ <build_depend>cv_bridge</build_depend>
+ <run_depend>cv_bridge</run_depend>
+ <build_depend>image_transport</build_depend>
+ <run_depend>image_transport</run_depend>
+ <build_depend>vision_msgs</build_depend>
+ <run_depend>vision_msgs</run_depend>
+
+</package>

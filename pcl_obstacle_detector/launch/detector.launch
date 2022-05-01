@@ -1,0 +1,14 @@
+<launch>
+	<include file="$(find car_simulation)/launch/simulation_barrel_world.launch">
+<arg name="world_name" value="barrels.world"/>
+</include>
+	<node
+		pkg = "pcl_obstacle_detector"
+		type = "pcl_obstacle_detector_node"
+		name = "pcl_obstacle_detector_node">
+
+	</node>	
+
+
+</launch>	
+

@@ -1,0 +1,20 @@
+<launch>
+	<include file="$(find opencv_person_detector)/launch/opencv_person_detector.launch">
+	</include>
+
+		<node
+			pkg = "control_barrel_world"
+			type= "control_barrel_world_node"
+			name= "control_barrel_world_node"
+			output= "screen">
+			
+		</node>
+
+		<node
+			pkg = "pcl_obstacle_detector"
+			type ="pcl_obstacle_detector_node"
+			name = "pcl_obstacle_detector_node">
+
+		</node>
+
+</launch>
