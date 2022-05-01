@@ -1,7 +1,7 @@
 # TU Delft - Robot Software Practicals Final Assignment
-Course: Robot Software Practicals
-Programming Language: C++
-Grade: Pass (no grade)
+- Course: Robot Software Practicals
+- Programming Language: C++
+- Grade: Pass (no grade)
 
 ## Project Description
 In this assignment a fellow student and I have worked with a virtual controllable Prius vehicle, driving through a virtual environment. The vehicle must use its sensors to detect obstacles and pedestrians, and use these detections to generate control instructions. This way, the vehicle should drive automatically between a path
